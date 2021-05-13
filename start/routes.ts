@@ -19,7 +19,9 @@
 */
 
 import Route from '@ioc:Adonis/Core/Route'
-
+Route.get('/', ctx => {
+  return ctx.response.status(200).send('Is runnig');
+});
 
 Route.resource('books', 'BooksController').only([
   'index',
