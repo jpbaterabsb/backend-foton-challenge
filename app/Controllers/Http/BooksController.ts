@@ -29,7 +29,7 @@ export default class BooksController {
       author: schema.string(),
       caption: schema.string.optional(),
       description: schema.string.optional(),
-      bookCoverUrl: schema.string.optional(),
+      book_cover_url: schema.string.optional(),
     })
 
     const payload =  await  request.validate({ schema: bookSchema });
