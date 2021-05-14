@@ -6,7 +6,7 @@ export default class Book extends BaseModel {
   public id: number
 
   @column()
-  public bookCoverUrl?: string
+  public book_cover_url?: string
 
   @column()
   public name: string
