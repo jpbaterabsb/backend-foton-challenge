@@ -21,7 +21,7 @@ For running that application you must install following tools:
 ```
 npm install
 
-cp .env.local .env
+cp .env.example .env
 
 docker-compose up -d
 
